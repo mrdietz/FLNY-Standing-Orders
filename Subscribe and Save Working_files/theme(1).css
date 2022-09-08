@@ -1,0 +1,520 @@
+:root {
+	--brand_color: #383535;
+	--brand_color_inverted: #ffffff;
+	--background_color: #FFF;
+	--text_color: #3d3d3d;
+	--link_color: #383535;
+}
+
+body {
+	background-color: var(--background_color);
+	color: var(--text_color);
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, legend {
+	font-family: Lora;
+}
+
+body, p, label, .paragraph {
+	font-family: Arial;
+	font-size: 15px;
+}
+
+a {
+	color: var(--link_color);
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.brand {
+	background-color: #383535;
+	color: #ffffff;
+	border-color: #383535;
+}
+
+.text-brand {
+	color: #383535;
+}
+
+.text-action {
+	color: #000000;
+}
+
+.brand-inverted {
+	background-color: #ffffff;
+	color: #383535;
+	border-color: #ffffff;
+}
+
+.action {
+	background-color: #000000;
+	color: #ffffff;
+	border-color: #000000;
+}
+
+.action-inverted {
+	background-color: #ffffff;
+	color: #000000;
+	border-color: #ffffff;
+}
+
+/* SiteHeader */
+
+.announcement_bar {
+	background-color: #383535;
+	color: #ffffff;
+}
+
+.announcement_bar a {
+	color: #ffffff;
+}
+
+.siteHeader {
+	background-color: transparent;
+	color: #383535;
+	border-top-style: solid;
+	border-top-width: 0;
+	border-top-color: #e27238;
+}
+
+.siteHeader__container {
+	max-width: 1366px;
+}
+
+/* MainNavigation */
+
+.mainNavigation, .mobileNav {
+	background-color: transparent;
+}
+
+.mainNavigation__list {
+	text-align: center !important;
+}
+
+.siteHeader__container--style4 {
+	text-align: center;
+}
+
+.mainNavigation__list > li > a {
+	font-size: 16px;
+}
+
+/*Mobile Nav*/
+.mobileNav > li > a {
+	color: #383535;
+	background-color: transparent;
+}
+
+.mobileNav > li > a:hover {
+	background-color: #;
+}
+
+.mobileNav > li > a:focus {
+	background-color: #;
+}
+
+/* Custom Link Colors */
+	.mainNavigation__list > li > a {
+		color: #383535;
+		background-color: transparent;
+	}
+	.mainNavigation__list > li > a:hover {
+		color: #ffffff;
+		background-color: #000000;
+	}
+
+	.mobileNav > li > a {
+		color: #383535;
+		background-color: transparent;
+	}
+
+	.mobileNav > li > a:hover {
+		color: #ffffff;
+		background-color: #000000;
+	}
+
+	.mobileNav > li > a:focus {
+		color: #ffffff;
+		background-color: #000000;
+	}
+
+.mainNavigation__list > li > a {
+	transition: all 0.2s ease-in-out;
+}
+
+/* Auxiliary Navigation (Use this for the account menu, sign up cta, cart, etc,) */
+
+.auxiliaryMenu--block, .auxiliaryMenu__container {
+	background-color: transparent;
+		border-bottom: none;
+	}
+
+.auxiliaryMenu {
+	max-width: 1366px;
+}
+
+		.auxiliaryMenu > li > a {
+				color: #;
+			}
+
+	.auxiliaryMenu > li > a:hover, .auxiliaryMenu > li > a:focus {
+				color: #;
+			}
+	
+.order__delivery_threshold_difference, .order__delivery_threshold_difference-met {
+    background-color: #383535;
+    color: #ffffff;
+}
+
+/* OrderStatus */
+.orderStatus {
+	background-color: #383535;
+}
+
+.orderStatus__container {
+	color: #ffffff;
+}
+
+.orderStatus__container a {
+	border-bottom-color: #6a6767;
+	color: #ffffff;
+}
+
+.orderStatus__container a:hover {
+	border-bottom-color: #ffffff;
+}
+
+/* Logo */
+
+.logo {
+	color: #383535;
+	font-size: 16px;
+	padding: 14px;
+}
+
+.logo__img {
+	max-height: 186px;
+}
+
+@media (max-width: 414px) {.logo {padding: 14px;} .logo__img {max-height: 75px;}}
+
+.siteFooter {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+.siteFooter h1, .siteFooter h2, .siteFooter h3, .siteFooter h4, .siteFooter h5, .siteFooter h6 {
+	color: #ffffff;
+}
+
+.siteFooter a {
+	color: #acabab;
+}
+
+.siteFooter a:hover, .siteFooter a:focus {
+	color: #989797;
+}
+
+.backToTopLink__container {
+	background-color: #141414;
+}
+
+.backToTopLink__container a {
+	color: #acabab;
+}
+
+/* Buttons */
+.btn-brand, .btn-default, .btn-primary {
+	background-color: #383535 !important;
+	border-color: #242121 !important;
+	color: #ffffff !important;
+}
+
+.btn-brand-inverted {
+	background-color: #ffffff;
+	color: #383535;
+	border: solid 1px #383535;
+}
+
+.btn-brand-inverted:hover {
+	background-color: #383535;
+	color: #ffffff;
+	border: solid 1px #383535;
+}
+
+
+
+.btn-brand:hover, .btn-default:hover, .btn-primary:hover {
+		background-color: #605d5d !important;
+	border-color: #605d5d !important;
+		color: #ffffff !important;
+}
+
+.btn-danger, .btn-action, .cta {
+	background-color: #000000 !important;
+	border-color: #000000 !important;
+	color: #ffffff !important;
+}
+.btn-danger:hover, .btn-action:hover, .cta:hover {
+		background-color: #282828 !important;
+	border-color: #282828 !important;
+	
+	color: #ffffff !important;
+}
+
+.btn-action-inverted {
+	background-color: #ffffff;
+	color: #000000;
+	border: solid 1px #000000;
+}
+
+.btn-action-inverted:hover {
+	background-color: #000000;
+	color: #ffffff;
+	border: solid 1px #000000;
+}
+
+.bullet, .confirmation__step-number {
+	background-color: #383535;
+	color: #ffffff;
+}
+
+/* Store Menu */
+.storeIndex__sideBarList--style2 {
+	background-color: #f8f8f8 !important;
+	border-color: #f8f8f8 !important;
+	color: #777;
+}
+
+.storeSearch__input--style2 {
+	border-color: #f8f8f8 !important;
+}
+
+.storeIndex__sideBarList--style2 > li > a {
+	color: #777;
+	border-color: #eeeeee !important;
+}
+
+.storeIndex__sideBarList--style2 > li > a:hover {
+	color: #777;
+	background-color: #eeeeee !important;
+}
+
+.storeSearch__button--style2 {
+	color: #777;
+}
+
+.banner__protocols li:before {
+    color: #383535
+}
+
+/*Custom Styles*/
+/*TEMP CSS TO USE WHILE WORKING */
+
+
+/* END TEMP CSS */
+
+
+/* Eliminate horiz scroll bar */
+body {
+    overflow-x: hidden;
+}
+
+
+/* Order Status Bar color (below header) */
+.orderStatus {
+    background-color: #000000;
+}
+
+/* How It Works Section */
+.howItWorksWidget__step>p {
+    font-size: 1.35em;
+}
+
+.howItWorksWidget__stepsContainer {
+    max-width: 1200px;
+}
+
+.howItWorksWidget__cta {
+    margin-top: 0;
+}
+
+/* Sets header as a flex container
+   with items centered vertically 
+   and horizontally */
+.siteHeader__flexContainer--style4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Moves menu bar to vertical center of header,
+   one layer below logo and spaces items out*/
+.mainNavigation {
+    position: absolute;
+    top: 115px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainNavigation__list {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 15px;
+}
+
+.mainNavigation__list>li {
+    width: 150px;
+}
+
+.mainNavigation__list li:nth-child(n+6) {
+    display: none;
+}
+
+.mainNavigation__list #dropdown {
+    display: inline-block;
+}
+
+/* Makes nav bar and
+   order status bar disappear
+   for mobile users */
+@media (max-width: 768px) {
+    .mainNavigation,
+    .orderStatus__container {
+        display: none!important;
+    }
+    .msg_content {
+        flex-direction: column;
+    }
+}
+/* Resets menu items
+   for mobile users*/
+@media (max-width: 768px) {
+    #menuItem_28 {
+        margin-right: 0;
+    }
+    #menuItem_120 {
+        margin-left: 0;
+    }
+    #mobileNav_menuItem--login,
+    #mobileNav_menuItem--logout{
+        display: none;
+    }
+    .caret {
+        display: inline-block;
+    }
+}
+/* Sets logo one layer above menu bar */
+.logo__container {
+    position: relative;
+    z-index: 2;
+}
+
+/* Hides "Sign in" and "create account"
+   links from menu bar,
+   but keeps other LI visible 
+li:not(.dropdown, 
+       .menu-item,
+       .orderStatus__container,
+       .photoGridWidget__listItem,
+       .accreditation) {
+    visibility: hidden;
+}*/
+
+/* Keeps the following items visible and 
+   aligned properly:
+    - dropdown items in "Account" menu
+    - links in admin toolbar
+    - "Checkout" button
+    - Nav links for mobile users */
+.mobileNav__list,
+.mobileNav__list li,
+.dropdown-menu li,
+.adminToolbar__list li,
+li>.btn,
+.mobileNav>li,
+#mobileNav_menuItem--account {
+    visibility: visible;
+    margin-right: 0;
+}
+
+/* Adjusts sizing and layout
+    of standing order section */
+.featuredProductsWidget__products {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+}
+
+/* Hides price of standing order options
+    (because it says $0.00)  */
+.featuredProductsWidget__price--style2 {
+    display: none;
+}
+
+/* Adds a small shadow around text over pics
+    to make it pop */
+.bannerWidget__heading,
+.bannerWidget__subheading {
+    text-shadow: 0px 0px 17px black;
+}
+
+/*  The following is for the 
+    "Message" section  */
+
+.msg_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#leftPanel {
+    padding: 20px 80px 20px 120px;
+    flex-basis: 65%;
+}
+
+#rightPanel {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 0;
+    flex-basis: 35%;
+}
+
+.msg_img {
+    width: 400px;
+}
+
+.panelHeading {
+    font-size: 2.5em;
+    font-weight: bolder;
+    font-family: "Lora";
+}
+
+.panelSubHeading {
+    font-size: 1.5em;
+    font-weight: 100;
+    font-family: "Arial";
+}
+
+/* End Message Section*/
+
+.announcement_bar {
+    font-weight: bold;
+    font-size: 1.75rem;
+}
+
+.announcement_bar a {
+    text-decoration: underline;
+}
+
+.announcement_bar a:hover {
+    color: #b99b7c
+}
