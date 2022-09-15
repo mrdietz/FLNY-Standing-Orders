@@ -1,0 +1,139 @@
+.bannerWidget--201 {
+    background-image: url(https://s3.amazonaws.com/grazecart/doubleoakfoodcoop/images/1662522231_6318137714e9e.jpg); 
+	background-attachment: scroll; 
+	background-position: 50% 12%; 
+	background-repeat: no-repeat; 
+    background-size: cover;
+    position: relative;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+}
+
+@media (max-width : 480px) {
+    /* safari mobile does not support fixed */
+    .bannerWidget--201 {
+        background-attachment: initial;
+    }
+}
+
+.bannerWidget--201::after {
+    background-color: hsla(0, 0%, 0%, 0.23);
+    z-index: 1;
+}
+
+.bannerWidget--201 .bannerWidget__innerContainer {
+    z-index: 100;
+    padding-top: 21px;
+    padding-bottom: 121px;
+    height: auto;
+        max-width: 1600px;
+    
+        min-height: 889px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+.bannerWidget--201 .bannerWidget__heading {
+    letter-spacing: normal; 
+    color: #FFF; 
+    max-width: 608px; 
+    line-height: 1.25; 
+    font-size: 48px;
+    text-transform: none;
+}
+
+.bannerWidget--201 .bannerWidget__subheading {
+    letter-spacing: 0.05em; 
+    color: #FFF; 
+    max-width: 544px; 
+    line-height: 1.25; 
+    font-size: 24px;
+    text-transform: none;
+}.howItWorksWidget--205 {
+    background-color: var(--background_color); 
+    color: var(--text_color); 
+    text-align: left; 
+    padding-top: 26px; 
+    padding-bottom: 47px;
+}
+
+.howItWorksWidget--205 a {
+    color: var(--link_color);
+}
+
+.howItWorksWidget--205 .bullet {
+    background-color: var(--brand_color); 
+    color: var(--brand_color_inverted);
+}.howItWorksWidget--204 {
+    background-color: #dedede; 
+    color: var(--text_color); 
+    text-align: left; 
+    padding-top: 16px; 
+    padding-bottom: 27px;
+}
+
+.howItWorksWidget--204 a {
+    color: var(--link_color);
+}
+
+.howItWorksWidget--204 .bullet {
+    background-color: var(--brand_color); 
+    color: var(--brand_color_inverted);
+}.bannerWidget--202 {
+    background-image: url(https://s3.amazonaws.com/grazecart/doubleoakfoodcoop/images/1662522714_6318155a5793d.jpg); 
+	background-attachment: scroll; 
+	background-position: 50% 86%; 
+	background-repeat: no-repeat; 
+    background-size: cover;
+    position: relative;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+}
+
+@media (max-width : 480px) {
+    /* safari mobile does not support fixed */
+    .bannerWidget--202 {
+        background-attachment: initial;
+    }
+}
+
+.bannerWidget--202::after {
+    background-color: hsla(0, 0%, 38%, 0.27);
+    z-index: 1;
+}
+
+.bannerWidget--202 .bannerWidget__innerContainer {
+    z-index: 100;
+    padding-top: 0px;
+    padding-bottom: 55px;
+    height: auto;
+        max-width: 1600px;
+    
+        min-height: 740px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+.bannerWidget--202 .bannerWidget__heading {
+    letter-spacing: normal; 
+    color: #FFF; 
+    max-width: 608px; 
+    line-height: 1.25; 
+    font-size: 48px;
+    text-transform: none;
+}
+
+.bannerWidget--202 .bannerWidget__subheading {
+    letter-spacing: normal; 
+    color: #FFF; 
+    max-width: 768px; 
+    line-height: 1.25; 
+    font-size: 24px;
+    text-transform: none;
+}
